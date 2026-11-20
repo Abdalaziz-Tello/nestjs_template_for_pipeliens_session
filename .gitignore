@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# environment files (secrets!) - keep only .env.example in git
+.env
+.env.*
+!.env.example
+
+# logs & OS junk
+*.log
+.DS_Store
+.idea/
+.vscode/
